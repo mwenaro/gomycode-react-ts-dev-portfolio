@@ -8,7 +8,7 @@ export function Hero() {
         <h2 className="text-4xl font-bold mb-2">
           Hi 👋, <br />
           My name is <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to purple-600">Pavan MG</span>
+          <span className="text-transparent bg-clip-text bg-[linear-gradient(60deg,#13B0F5,#CA24B4)]">Pavan MG</span>
            <br />I build things for web
         </h2>
       </div>
