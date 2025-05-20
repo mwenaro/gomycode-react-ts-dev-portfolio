@@ -1,3 +1,5 @@
+import { About } from "./components/AboutSection";
+
 export default function App() {
   return (
     <div>
@@ -6,13 +8,13 @@ export default function App() {
       {/* Hero */}
 
       {/* About */}
+      <About />
 
       {/* Projects */}
 
       {/* Contact */}
 
       {/* Footer */}
-
     </div>
   );
 }
