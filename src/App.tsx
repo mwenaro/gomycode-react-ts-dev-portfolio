@@ -1,8 +1,10 @@
+import { Header } from "./components/Header";
+
 export default function App() {
   return (
-    <div>
-      {/* Nav */}
-
+    <div className="max-w-[1000px] mx-auto">
+      {/* Header */}
+      <Header />
       {/* Hero */}
 
       {/* About */}
@@ -14,7 +16,6 @@ export default function App() {
       {/* Contact */}
 
       {/* Footer */}
-
     </div>
   );
 }
