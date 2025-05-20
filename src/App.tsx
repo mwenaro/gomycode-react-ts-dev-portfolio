@@ -1,4 +1,6 @@
-export default function App() {
+    import { Footer } from "./components/Footer"; 
+
+       export default function App() {
   return (
     <div>
       {/* Nav */}
@@ -14,6 +16,9 @@ export default function App() {
       {/* Contact */}
 
       {/* Footer */}
+      <Footer />
+  
+      
 
     </div>
   );
