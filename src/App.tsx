@@ -7,6 +7,8 @@ export default function App() {
 
       {/* About */}
 
+      {/* My Tech Stack */}
+
       {/* Projects */}
 
       {/* Contact */}
