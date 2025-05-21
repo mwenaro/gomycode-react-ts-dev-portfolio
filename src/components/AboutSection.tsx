@@ -18,8 +18,8 @@ export function About() {
 
         {/* job 1 */}
         <div className="">
-          <h3 className=" mb-2 text-xl font-semibold text-gray-600 [word-spacing:1rem] ">Junior Web Developer</h3>
-          <p className="text-sm ">Dr.Rajkumar's Learning App </p>
+          <h3 className=" mb-2 text-2xl font-semibold text-gray-600 [word-spacing:1rem] ">Junior Web Developer</h3>
+          <p className="text-sm text-gray-400 ">Dr.Rajkumar's Learning App </p>
           <div>
             <span>full-time</span>
             <span>Sep 2021 - Dec 2021</span>
@@ -29,8 +29,8 @@ export function About() {
 
       {/* job 2 */}
       <div>
-        <h3 className="text-xl font-semibold text-gray-600 [word-spacing:1rem] ">Web Development Intern</h3>
-        <p>IonPixelz Web Solutions </p>
+        <h3 className=" mb-2 text-2xl font-semibold text-gray-600 [word-spacing:1rem] ">Web Development Intern</h3>
+        <p className="text-sm text-gray-400" >IonPixelz Web Solutions </p>
         <div>
           <span>Internship</span>
           <span>Sep 2021 - Dec 2021</span>
@@ -39,8 +39,8 @@ export function About() {
 
            {/* job 3 */}
       <div>
-        <h3 className="text-xl font-semibold text-gray-600 [word-spacing:1rem] ">SEO /SEM Specialist</h3>
-        <p>HAAPS</p>
+        <h3 className=" mb-2 text-2xl font-semibold text-gray-600 [word-spacing:1rem] ">SEO /SEM Specialist</h3>
+        <p className="text-sm text-gray-400">HAAPS</p>
         <div>
           <span>Internship</span>
           <span>Sep 2021 - Dec 2021</span>
