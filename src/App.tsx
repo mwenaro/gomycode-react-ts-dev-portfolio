@@ -1,3 +1,5 @@
+import { Footer } from "./components/Footer";
+
 import { About } from "./components/AboutSection";
 import { MyTechStackSection } from "./components/MyTechStackSection";
 import { Header } from "./components/Header";
@@ -22,6 +24,7 @@ export default function App() {
       {/* Contact */}
 
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
