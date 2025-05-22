@@ -1,6 +1,8 @@
+import { JobExperience } from "./about/JobExperience";
+
 export function About() {
   return (
-    <section className=" px-18 py-2 max-w-3xl  ">
+    <section className=" px-4 md:px-18 py-2   ">
       {/* About me */}
       <div>
         <h2 className="text-4xl font-bold text-[#42446E]">About Me</h2>
@@ -17,125 +19,24 @@ export function About() {
         <h2 className=" mb-4 text-4xl font-bold text-[#42446E]">
           Work Experience
         </h2>
-
-        {/* Job 1 */}
-        <div className=" mb-4 border-b-2 border-gray-200 pb-4 flex justify-between items-start gap-4 flex-wrap">
-          {/* Left side */}
-          <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-500 [word-spacing:1rem] mb-1">
-              Junior Web Developer
-            </h3>
-            <div className="flex items-center gap-2 flex-wrap">
-              <img
-                src="/images/jobicons.png"
-                alt="job icon"
-                className="w-5 h-5"
-              />
-              <p className="text-sm text-gray-400">
-                Dr.Rajkumar's Learning App
-              </p>
-              <img
-                src="/images/location.png"
-                alt="location icon"
-                className="w-4 h-4"
-              />
-              <span className="text-sm text-gray-400">Bengaluru</span>
-            </div>
-          </div>
-          {/* Right side */}
-          <div className="flex flex-col items-end gap-2 text-sm text-gray-500 min-w-fit">
-            <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-3xl">
-              full-time
-            </span>
-            {/* Calendar */}
-            <div className="flex items-center gap-1">
-              <img
-                src="/calender.png"
-                alt="calendar icon"
-                className="w-4 h-4"
-              />
-              <span>Sep 2021 - Dec 2021</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Job 2 */}
-        <div className=" mb-4 border-b-2 border-gray-200 pb-4 flex justify-between items-start gap-4 flex-wrap">
-          {/* Left side */}
-          <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-500 [word-spacing:1rem] mb-1">
-              Web Development Intern
-            </h3>
-            <div className="flex items-center gap-2 flex-wrap">
-              <img
-                src="/images/jobicons.png"
-                alt="job icon"
-                className="w-5 h-5"
-              />
-              <p className="text-sm text-gray-400">IonPixelz Web Solutions </p>
-              <img
-                src="/images/location.png"
-                alt="location icon"
-                className="w-4 h-4"
-              />
-              <span className="text-sm text-gray-400">Bengaluru</span>
-            </div>
-          </div>
-          {/* Right side */}
-          <div className="flex flex-col items-end gap-2 text-sm text-gray-500 min-w-fit">
-            <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-3xl">
-              internship
-            </span>
-            {/* Calendar*/}
-            <div className="flex items-center gap-1">
-              <img
-                src="/calender.png"
-                alt="calendar icon"
-                className="w-4 h-4"
-              />
-              <span>Sep 2021 - Dec 2021</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Job 3 */}
-        <div className=" mb-4 border-b-2 border-gray-200 pb-4 flex justify-between items-start gap-4 flex-wrap">
-          {/* Left side */}
-          <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-gray-500 [word-spacing:1rem] mb-1">
-              SEO /SEM Sepcialist
-            </h3>
-            <div className="flex items-center gap-2 flex-wrap">
-              <img
-                src="/images/jobicons.png"
-                alt="job icon"
-                className="w-5 h-5"
-              />
-              <p className="text-sm text-gray-400">HAAPS </p>
-              <img
-                src="/images/location.png"
-                alt="location icon"
-                className="w-4 h-4"
-              />
-              <span className="text-sm text-gray-400">Bengaluru</span>
-            </div>
-          </div>
-          {/* Right side */}
-          <div className="flex flex-col items-end gap-2 text-sm text-gray-500 min-w-fit">
-            <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-3xl">
-              internship
-            </span>
-            {/* Calendar */}
-            <div className="flex items-center gap-1">
-              <img
-                src="/calender.png"
-                alt="calendar icon"
-                className="w-4 h-4"
-              />
-              <span>Sep 2021 - Dec 2021</span>
-            </div>
-          </div>
-        </div>
+        <JobExperience
+          title="Junior Web Developer"
+          company="Dr.Rajkumar's Learning App"
+          location="Bengaluru"
+          category="full-time"
+        />
+        <JobExperience
+          title="Web Development Intern"
+          company="IonPixelz Web Solutions"
+          location="Bengaluru"
+          category="internship"
+        />
+        <JobExperience
+          title="SEO /SEM Sepcialist"
+          company="HAAPS"
+          location="Bengaluru"
+          category="internship"
+        />
 
         {/* Education */}
         <div className="border-b-2 border-gray-200 pb-4">
