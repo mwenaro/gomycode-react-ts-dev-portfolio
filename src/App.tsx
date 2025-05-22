@@ -4,6 +4,7 @@ import { About } from "./components/AboutSection";
 import { MyTechStackSection } from "./components/MyTechStackSection";
 import { Header } from "./components/Header";
 import { ProjectSection } from "./components/ProjectSection";
+import { Hero } from "./components/Hero";
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
       {/* Header */}
       <Header />
       {/* Hero */}
-
+      <Hero />
       {/* About */}
       <About />
 
