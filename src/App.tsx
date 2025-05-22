@@ -3,6 +3,8 @@ import { Footer } from "./components/Footer";
 import { About } from "./components/AboutSection";
 import { MyTechStackSection } from "./components/MyTechStackSection";
 import { Header } from "./components/Header";
+import { ContactSection } from "./components/ContactSection";
+
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
       {/* Projects */}
 
       {/* Contact */}
+      
+      <ContactSection />
 
       {/* Footer */}
       <Footer />

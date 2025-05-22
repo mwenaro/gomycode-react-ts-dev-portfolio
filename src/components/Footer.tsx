@@ -6,7 +6,7 @@ export  function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-300 pb-4">
         {/* Left Section */}
         <div className="mb-4 md:mb-0">
-          <div className="text-xl font-bold">{'{'}<span className="text-purple-600">007</span>{'}'}</div>
+          <div className="text-xl font-bold">{'{'}<span className="text-green-600">007</span>{'}'}</div>
           <div className="text-sm text-gray-600">pavanmg</div>
         </div>
 
@@ -23,7 +23,7 @@ export  function Footer() {
         <div className="flex flex-row items-start">
           <div className="mx-2 ">+91 12345 09876</div>
           <div className="mx-2">
-            <a href="mailto:info@example.com" className="hover:text-purple-600">info@example.com</a>
+            <a href="mailto:info@example.com" className="hover:text-green-600">info@example.com</a>
           </div>
           <div className="flex gap-3 mt-2">
             <a href="#">
@@ -44,7 +44,7 @@ export  function Footer() {
 
       {/* Bottom Footer Note */}
       <div className="text-center mt-4 text-xs text-gray-600">
-        Designed and built by <span className="text-purple-600 font-medium">Pavan MG</span> with <span className="text-pink-500">Love</span> & <span className="text-pink-500">Caffee</span>
+        Designed and built by <span className="text-green-600 ">Pavan MG</span> with <span className="text-purple-500">Love</span> & <span className="text-pink-500">Caffee</span>
       </div>
     </footer>
   );
