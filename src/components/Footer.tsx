@@ -4,13 +4,13 @@ export  function Footer() {
   return (
     <footer className="bg-gray-100 text-gray-800 py-6 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-300 pb-4">
-        {/* Left Section */}
+        
         <div className="mb-4 md:mb-0">
-          <div className="text-xl font-bold">{'{'}<span className="text-green-600">007</span>{'}'}</div>
+          <div className="text-xl font-bold">{'{'}<span className="text-purple-600">007</span>{'}'}</div>
           <div className="text-sm text-gray-600">pavanmg</div>
         </div>
 
-        {/* Center Navigation */}
+        
         <div className="flex flex-wrap gap-4 text-sm text-gray-700 mb-4 md:mb-0">
           <a href="#" className="hover:text-purple-600">Home</a>
           <a href="#" className="hover:text-purple-600">About</a>
@@ -19,7 +19,7 @@ export  function Footer() {
           <a href="#" className="hover:text-purple-600">Contact</a>
         </div>
 
-        {/* Right Section */}
+        
         <div className="flex flex-row items-start">
           <div className="mx-2 ">+91 12345 09876</div>
           <div className="mx-2">
@@ -44,7 +44,7 @@ export  function Footer() {
 
       {/* Bottom Footer Note */}
       <div className="text-center mt-4 text-xs text-gray-600">
-        Designed and built by <span className="text-green-600 ">Pavan MG</span> with <span className="text-purple-500">Love</span> & <span className="text-pink-500">Caffee</span>
+        Designed and built by <span className="text-purple-600 ">Pavan MG</span> with <span className="text-purple-500">Love</span> & <span className="text-pink-500">Caffee</span>
       </div>
     </footer>
   );
