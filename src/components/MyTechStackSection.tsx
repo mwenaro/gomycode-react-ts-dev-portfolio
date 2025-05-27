@@ -9,10 +9,10 @@ export function MyTechStackSection() {
         </article>
       </div>
       {/* Icons */}
-      <span className="inline-grid grid-cols-6 gap-17 mb-10">
+      <span className="inline-grid gap-17 mb-10 sm:grid-cols-3 md:grid-cols-6 gap-x-6 gap-y-10">
         <span>
           <p className="text-sm text-gray-600 mb-2">VSCO...</p>
-          <img src="/images/html.png" alt="HTML logo" className="w-20 h-20 object-contain mx-auto" />
+          <img src="/images/html.png" alt="HTML logo" className="w-20 h-20 w-16 sm:w-20 md:w-24 object-contain mx-auto" />
         </span>
         <span>
           <p className="text-sm text-gray-600 mb-2">VSCO...</p>
@@ -34,7 +34,7 @@ export function MyTechStackSection() {
           <img src="/images/bootstrap.png" alt="JS logo" className="w-20 h-20 object-contain mx-auto" />
         </span>
       </span>
-      <span className="inline-grid grid-cols-6 gap-17">
+      <span className="inline-grid gap-17 sm:grid-cols-3 md:grid-cols-6 gap-x-6 gap-y-10">
         <span>
           <p className="text-sm text-gray-600 mb-2">vscod...</p>
           <img src="/images/tailwind.png" alt="Tailwind logo" className="w-20 h-20 object-contain mx-auto" />
